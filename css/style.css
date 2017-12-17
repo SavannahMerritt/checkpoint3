@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+
+.tree {
+  margin: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.currentTotal {
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  font-size: 44px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.button {
+  width: 250px;
+  height: 30px;
+  font-size: 28px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: lightgrey;
+}
+
+.button:active {
+  transform: translateY(4px);
+}
